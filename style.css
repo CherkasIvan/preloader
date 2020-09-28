@@ -1,0 +1,47 @@
+.wrap {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  background-color: black;
+  
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: circle 5s infinite linear;
+}
+
+@keyframes circle {
+
+  0% {
+    top: 0%;
+    left: 0%;
+   
+  }
+
+  25% {
+    top: 0%;
+    left: 93%;
+  }
+
+  50% {
+    top: 93%;
+    left: 93%;
+  }
+
+  75% {
+    top: 93%;
+    left: 0%;
+  }
+
+  100% {
+    top: 0%;
+    left: 0%;
+  }
+}
